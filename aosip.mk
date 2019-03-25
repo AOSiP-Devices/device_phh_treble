@@ -4,3 +4,4 @@ $(call inherit-product, device/aosip/sepolicy/common/sepolicy.mk)
 
 PRODUCT_PACKAGES += telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
+AOSIP_BUILDTYPE := GSI
