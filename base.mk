@@ -119,3 +119,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
 	device/phh/treble/files/adbd.rc:system/etc/init/adbd.rc
+
+#MTK incoming SMS fix
+PRODUCT_PACKAGES += \
+	mtk-sms-fwk-ready
+
+PRODUCT_PACKAGES += \
+	Stk
