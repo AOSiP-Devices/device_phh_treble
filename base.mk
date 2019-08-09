@@ -2,7 +2,9 @@
 #TODO: Proper detection
 PRODUCT_COPY_FILES := \
 	frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
-	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
+	frameworks/native/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
+	frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
 
 #Use a more decent APN config
 PRODUCT_COPY_FILES += \
@@ -130,6 +132,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	Stk
-
-PRODUCT_PACKAGES += \
-	ch.deletescape.lawnchair.plah
