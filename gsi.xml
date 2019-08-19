@@ -9,5 +9,7 @@
 <project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="pie" />
 <project name="device/generic/goldfish" />
 <project name="device/sample" />
+<remove-project name="platform_bootable_recovery-twrp" />
+<project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" /> 
 
 </manifest>
